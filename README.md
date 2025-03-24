@@ -12,10 +12,10 @@
 - [x] Create a Resume Details form that stores all resume instance metadata entered by the user
 - [x] Add Clerk Sign Up and Log in, assign users to all activity done storing the above
 - [x] Create point system rewarding each phase of the hiring process
-- [ ] Create User Leaderboards
-- [ ] Create global leaderboards
-- [ ] Convert to Serverless by upgrading from mysql to postgresql
-- [ ] Deploy to Vercel
+- [x] Create User Leaderboards
+- [x] Create global leaderboards
+- [x] Convert to Serverless by upgrading from mysql to postgresql
+- [x] Deploy to Vercel
 
 ## Tech Stack
 
