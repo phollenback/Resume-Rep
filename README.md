@@ -25,9 +25,6 @@ Used as a cheaper and easier alternative to AWS S3. Provides really clear docume
 ### Shadcn-ui
 At the UI's current state, shadcn-ui stock components have styled my simple multi-page app far better than most of my quick side projects in the past. This is my first time installing shadcn on any of my apps, but I predict Shad+Tailwind to be my go-to styling libraries in the future.
 
-### Drizzle ORM
-Drizzle facilitates the database interaction with a local mysql server. This is a good use case for Drizzle for numerous reasons; like its ease of being used in a serverless app, as well as the quick mutability of database configuration. Because Drizzle works with so many different databases, if I had to tie in another data store that had to separate resume data from user data for user privacy for instance, I can tie all database connection in under one roof.
-
 ## Functionality 
 
 ### Home pre sign in
