@@ -39,22 +39,17 @@ export default function LeaderboardPage() {
       
       {/* Main Content */}
       <div className="flex-1 p-8">
-        <h1 className="text-3xl font-bold mb-8">Leaderboard</h1>
+        <h1 className="text-3xl font-bold mb-8">Your Resumes</h1>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-          {/* Global Leaderboard */}
-          <div>
-            <h2 className="text-2xl font-bold mb-6">Industry Leaders</h2>
-            <Leaderboard limit={10} showViewAll={false} title="Global Leaderboard" />
-          </div>
-          
-          {/* Personal Leaderboard */}
-          <div>
-            <h2 className="text-2xl font-bold mb-6">Your Resumes</h2>
-            <Leaderboard limit={10} showViewAll={false} personal={true} title="Personal Leaderboard" />
-          </div>
+        <div className="w-full max-w-4xl mx-auto">
+          <Leaderboard 
+            limit={10} 
+            showViewAll={true} 
+            personal={true} 
+            title="Personal Leaderboard" 
+          />
         </div>
       </div>
     </div>
   );
-} 
+}
