@@ -14,7 +14,7 @@
 - [x] Create point system rewarding each phase of the hiring process
 - [x] Create User Leaderboards
 - [x] Create global leaderboards
-- [x] Convert to Serverless by upgrading from mysql to postgresql
+- [x] Convert to Serverless 
 - [x] Deploy to Vercel
 
 ## Tech Stack
